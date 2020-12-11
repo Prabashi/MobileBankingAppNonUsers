@@ -1,0 +1,70 @@
+Attribute information:
+1. Timestamp: Timestamp of the record
+
+2. Gender: (Categorical: "Male", "Female")
+
+3. Age: (Numeric: In years)
+
+4. District: Answers to question "Where do you currently live ?"
+ (Categorical: "Ampara", "Anuradhapura", "Badulla", "Batticaloa", "Colombo", "Galle", "Gampaha", "Hambantota", "Jaffna", "Kalutara", "Kandy", "Kegalle", "Kilinochchi", "Kurunegala", "Mannar", "Matale", "Matara", "Monaragala", "Mullaitivu", "Nuwara Eliya", "Polonnaruwa", "Puttalam", "Ratnapura", "Trincomalee", "Vavuniya")
+
+5. Job: (Categorical: "Unemployed", "Self-employed", "Government Sector", "Private Sector", "Business", "House-wife", "Other")
+
+6. Education: (Categorical: "None", "Grade 5", "Grade 9", "O / L", "A / L", "Diploma", "Graduate", "Post Graduate", "Other")
+
+7. MaritalStatus: (Categorical: "Married", "Unmarried")
+
+8. MonthlySalary: (Categorical: "Below 10, 000", "10, 000 – 30, 000", "30, 001 – 60, 000", "60, 001 – 100, 000", "Above 100, 001")
+
+9. MobilePhone: Answers to question "Do you have a mobile phone ?"
+ (Categorical: "Yes", "No")
+
+10. BankAccounts: Answers to question "Do you have any bank accounts ?"
+ (Categorical: "Yes", "No")
+
+11. AwareOfMobileBankingApps: Answers to question "Are you aware of mobile banking apps ?"
+ (Categorical: "Yes", "No")
+
+12. Source: Answers to question "Where did you hear about mobile banking ? "
+ (Categorical: "Media (Television, Radio, Newspaper)", "Bank directly", "An Agent", "SMS from Mobile Operator", "Friends or Family", "Other")
+
+13. MobileBanking: Answers to question "Do you use mobile banking apps ?"
+ (Categorical: "Yes", "No")
+
+14. Reasons: Answers to question "Why you do not use mobile banking services ?"
+ (Multiple values separated with semi colon: "My phone does not support it", "Transactional risk", "Prefer other means like bank directly or internet banking", "Complicated User Interface", "Takes more time", "I am not fully aware of Mobile Banking", "Setting up Mobile Banking is tiresome / takes time", "Other")
+
+15. TransactionFrequency: Answers to question "How often do you make transactions ?"
+ (Categorical: "Daily - once", "Daily - Several times", "Weekly - Once", "Weekly - Several times", "Monthly - Once", "Monthly - Several times", "Occasionally (less than once a month)")
+
+16. TransactionMethods: Answers to question "How do you typically (most often) make transactions ?"
+ (Categorical: "At Bank", "ATM (Automatic Teller Machine)", "Western Union, Money Gram", "Online (Internet)", "Other")
+
+17, 18, 19, 20, 21, 22, 23, 24 consist the rankings regarding Mobile Apps
+
+17. FullyAwareOfMobileBanking: Ranks statement "I am fully aware of Mobile Banking"
+ (Categorical: "Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree")
+
+18. PreferOtherMethods: Ranks statement "I prefer other methods over Mobile Banking"
+ (Categorical: "Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree")
+
+19. NotComfortableWithNewTech: Ranks statement "I am not comfortable using new technologies like mobile banking"
+ (Categorical: "Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree")
+
+20. NotSatisfiedWithUI: Ranks statement "I am not satisfied with the User Interface of mobile banking"
+ (Categorical: "Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree")
+
+21. LanguageProblems: Ranks statement "I have problems in understanding the language used in mobile banking"
+ (Categorical: "Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree")
+
+22. NetworkConnectivityTrust: Ranks statement "I do not trust the network connectivity while doing a transaction using mobile banking"
+ (Categorical: "Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree")
+
+23. SecurityRisks: Ranks statement "I do not use mobile banking because of possibilities of identity theft, fraud or hacking"
+ (Categorical: "Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree")
+
+24. MobileServiceProviderPoorPerformance: Ranks statement "I feel the mobile service provider might not perform well and process payment incorrectly"
+ (Categorical: "Strongly Agree", "Agree", "Neutral", "Disagree", "Strongly Disagree")
+
+25. Motivations: Answers to question "What would motivate you to use mobile banking?"
+ (Multiple values separated with semi colon: "Reduced risks involved in my transactions", "Increased awareness on mobile banking", "Improved User Interface", "Other")
